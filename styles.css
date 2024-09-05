@@ -1,0 +1,209 @@
+/* Globais */
+
+body {
+    margin: 0;
+    color: rgb(73, 73, 73);
+    background-color: rgb(248, 248, 248);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr {
+    opacity: 20%;
+}
+
+header {
+    width: 80%;
+    height: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+table {
+    width: 100%;
+    margin-top: 3%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+}
+
+tr {
+    width: 100%;
+    text-align: center;
+}
+
+th {
+    width: 20%;
+    height: 30px;
+    align-items: center;
+    border: 1px solid black;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(250, 173, 7);
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 2%;
+}
+
+/* tema 1 */
+
+
+.bgMode {
+    width: 190px;
+    height: auto;
+    margin-left: auto;
+    display: block;
+    flex-direction: initial;
+    border-radius: 8px;
+    background-color: rgba(30, 238, 210, 0.233);
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.subbt {
+    text-align: center;
+}
+
+.abt {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    align-content: center;
+    justify-content: center;
+
+}
+.bt-cor1 {
+    width: 68px;
+    height: 32px;
+    background-color: rgb(209, 226, 238);
+    cursor: pointer;
+    color: black;
+    border-radius: 8px;
+    margin: 10px 10px 10px 10px;
+    align-content: center;
+    text-align: center;
+    float: right;
+}
+
+.bt-cor2 {
+    width: 68px;
+    height: 32px;
+    background-color: rgb(18, 192, 163);
+    cursor: pointer;
+    color:aquamarine;
+    margin: 10px;
+    border-radius: 100%;
+    border-radius: 8px;
+    margin: 10px 10px 10px 10px;
+    align-content: center;
+    text-align: center;
+    float: right;
+}
+
+.h {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+
+.hs {
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+    padding: 10px;
+    float: right;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    background-color: rgb(30, 238, 210);
+    color: rgb(24, 24, 24);
+}
+
+
+
+
+/* tema 2 */
+.tema {
+    width: 80%;
+    height: auto;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+
+
+.navbar {
+    width: 100%;
+}
+
+/* tema 3 - imagens */
+
+.img {
+    width: 50%;
+    height: auto;
+}
+
+/* tema 4 - Tabelas */
+
+.trclassicoheader {
+    align-items: center;
+}
+
+.tabelaclassica {
+    border: 1px solid black;
+}
+
+.trclassico1 {
+    border: 1px solid black;
+}
+
+.trclassico1:nth-child(even) {
+    background-color: rgb(123, 219, 198);
+}
+
+/* tema  - Arvore DOM */
+
+.containerDOM {
+    width: 100%;
+    height: auto;
+    overflow:scroll;
+}
+
+/* footer */
+
+.div1 {
+    width: auto;
+    height: auto;
+    margin-right: 5%;
+}
+
+.div2 {
+    width: 70%;
+    height: auto;
+    padding-left: 3%;
+    border-left: 1px solid rgba(0, 0, 0, 0.116);
+}

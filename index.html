@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Trabalho 1</title>
+    <link rel="Stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div>
+            <h1>Aprendizado até aqui!</h1>
+            <p>Nesta página irei demonstrar algumas das funcionálidades aprendidas em sala de aula</p>
+        </div>
+        <div class="bgMode">
+            <div class="subbt">
+                <h4>Dark Mode</h4>
+            </div>
+            <div class="abt">
+                <div class="bt-cor1" onclick="colorChangeDark()">On</div>
+                <div class="bt-cor2" onclick="colorChangeLigth()">Off</div>
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <div class="tema" id="hs">
+            <hr>
+            <h1>Tags H - Cabeçalhos</h1>
+            <p>Abaixo demosntrareia a funcionálidade das TAGs H para o cabeçalho (Heading Tags) que vão do 1 ao 6</p>
+            <hr>
+            <div class="h">
+                <div class="hs">
+                    <h1>H1</h1>
+                    <hr>
+                    <p>A tag h1 normalmente é utilizada para títulos, por exemplo em um jornal a mesma séria utilizada para o titulo de uma manchete</p>
+                </div>
+                <div class="hs">
+                    <h2>H2</h2>
+                    <hr>
+                    <p>A tag h2 normalmente é utilizada para títulos, por exemplo em um jornal a mesma séria utilizada para o subtitulo de uma manchete, ou um titulo de uma matéria menos importante</p>
+                </div>
+                <div class="hs">
+                    <h3>H3</h3>
+                    <hr>
+                    <p>A partir da TAG H3 se tornam TAGs menos utilizadas de forma geral mas que são fundamental importancia para optimização de SEO</p>
+                </div>
+                <div class="hs">
+                    <h4>H4</h4>
+                    <hr>
+                    <p>A partir da TAG H3 se tornam TAGs menos utilizadas de forma geral mas que são fundamental importancia para optimização de SEO</p>
+                </div>
+                <div class="hs">
+                    <h5>H5</h5>
+                    <hr>
+                    <p>A partir da TAG H3 se tornam TAGs menos utilizadas de forma geral mas que são fundamental importancia para optimização de SEO</p>
+                </div>
+                <div class="hs">
+                    <h6>H6</h6>
+                    <hr>
+                    <p>A partir da TAG H3 se tornam TAGs menos utilizadas de forma geral mas que são fundamental importancia para optimização de SEO</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="tema" id="links">
+            <hr>
+            <h1>Links!</h1>
+            <p>Vamos mostrar um pouco sobre links e facilitar a navegação!</p>
+            <hr>
+            <div class="h">
+                <nav class="navbar">
+                    <h2>Links internos (Bookmarks)</h2>
+                    <p>Os marcadores podem ser úteis se uma página da web for muito longa. Quando o link for clicado, a página rolará para baixo ou para cima até o local com o marcador.</p>
+                    <table>
+                        <tr>
+                            <th><a href="#hs">Hs</a></th>
+                            <th><a href="#links">Links</a></th>
+                            <th><a href="#imagens">Imagens</a></th>
+                            <th><a href="#tabelas">Tabelas</a></th>
+                            <th><a href="#arvoreDOM">Arvore de DOM</a></th>
+                        </tr>
+                    </table>
+                </nav>
+                <div class="navbar">
+                    <h2>Links Externos (Hyperlinks)</h2>
+                    <p>Links HTML são hiperlinks. Você pode clicar em um link e ir para outro documento.</p>
+                    <p><strong>Para este exemplo vamos usar links externos para documentações com relações a aula!</strong></p>
+                    <ul>
+                        <li><a href="https://www.w3schools.com/html/default.asp">Vamos ao w3c</a></li>
+                        <li><a href="https://developer.mozilla.org/pt-BR/docs/Learn/HTML">Documentação HTML Mozilla</a></li>
+                    </ul>        
+                </div>
+            </div>
+        </div>
+
+        <div class="tema" id="imagens">
+            <hr>
+            <h1>Imagens (images)</h1>
+            <p>Imagens podem melhorar muito o layout de uma página web!</p>
+            <hr>
+            <div class="h">
+                <table>
+                    <tr>
+                        <th><img src="https://deolhonofuturo.uninter.com/wp-content/uploads/2023/12/MicrosoftTeams-image-67.jpg" alt="" class="img"></th>
+                        <th><img src="https://www.napratica.org.br/wp-content/uploads/2023/11/ti.png" alt="" class="img"></th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="tema" id="tabelas">
+            <hr>
+            <h1>Tabelas (tables)</h1>
+            <p>Tabelas HTML permite aos desenvolvedores organizar dados em tabelas.</p>
+            <hr>
+            <div class="h">
+                <h2>Tabelas simples</h2>
+                <p></p>
+                <table class="tabelaclassica">
+                    <tr class="trclassicoheader">
+                        <th>Aluno</th>
+                        <th>Turma</th>
+                        <th>Matéria</th> 
+                    </tr>
+                    <tr class="trclassico1">
+                        <td>Lorem ipsum</td>
+                        <td>Lorem ipsum</td>
+                        <td>Lorem ipsum</td>
+                    </tr>
+                    <tr class="trclassico1">
+                        <td>Lorem ipsum</td>
+                        <td>Lorem ipsum</td>
+                        <td>Lorem ipsum</td>
+                    </tr>
+                    <tr class="trclassico1">
+                        <td>Lorem ipsum</td>
+                        <td>Lorem ipsum</td>
+                        <td>Lorem ipsum</td>
+                    </tr>
+                    <tr class="trclassico1">
+                        <td>Lorem ipsum</td>
+                        <td>Lorem ipsum</td>
+                        <td>Lorem ipsum</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="tema" id="arvoreDOM">
+            <hr>
+            <h1>Árvore DOM (DOM)</h1>
+            <p>A tradução do acrônimo inglês <strong>DOM (Document Object Model)</strong> significa Modelo de Documento do Objeto; trata-se da modelagem de todo o HTML.</p>
+            <p>A partir da sua quinta versão, o HTML até então estático, além das melhorias na estrutura e separação da semântica da estilização, ganhou interatividade com a criação da <strong>linguagem de programação JavaScript</strong>, e é nesse momento que surge o DOM.</p>
+            <p>Uma das melhores formas para entender um conceito, e é algo recorrente no universo da tecnologia, é fazer abstrações e analogias.</p>
+            <hr>
+            <div class="h">
+                <div class="containerDOM">
+                    <img src="domVisualization.svg">
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <hr>
+    <footer class="tema">
+        <div class="h">
+            <div class="div1">
+                <h3>Mapa do site</h3>
+                <ul>
+                    <li><a href="#hs">Hs</a></li>
+                    <li><a href="#links">Links</a></li>
+                    <li><a href="#imagens">Imagens</a></li>
+                    <li><a href="#tabelas">Tabelas</a></li>
+                    <li><a href="#arvoreDOM">Árvore DOM</a></li>
+                </ul>
+            </div>
+            <div class="div2">
+                <h3>Dados do aluno e Turma</h3>
+                <ul>
+                    <li>Aluno: Leandro Ribeiro</li>
+                    <li>Matrícula: 202408568703</li>
+                    <li>Matéria: Desenv. Web em Html5, Css, Javascript e Php</li>
+                    <li>Turma: ARA0062 | 3002</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function colorChangeDark() {         
+                document.body.style.backgroundColor = "rgb(24, 24, 24)";
+                document.body.style.color = "rgb(248, 248, 248)";
+        }
+        function colorChangeLigth() {
+                document.body.style.backgroundColor = "#ffffff";
+                document.body.style.color = "rgb(24, 24, 24)";
+        }
+    </script>
+        
+</body>
+</html>
